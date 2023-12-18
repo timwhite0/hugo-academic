@@ -15,7 +15,7 @@ links:
 
 url_code: ''
 url_pdf: ''
-url_slides: honors_thesis_slides.pdf
+url_slides: umn_honors_thesis_slides.pdf
 url_video: ''
 ---
 
