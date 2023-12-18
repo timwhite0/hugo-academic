@@ -113,7 +113,6 @@ sections:
       items:
         - title: Research Assistant, IPUMS International
           company: Minnesota Population Center
-          company_url: https://pop.umn.edu
           company_logo: mpc
           location: Minneapolis, MN
           date_start: '2019-01-01'
@@ -121,7 +120,6 @@ sections:
           description:
         - title: Intern, Population and Development Branch
           company: United Nations Population Fund (UNFPA)
-          company_url: https://www.unfpa.org
           company_logo: unfpa
           location: New York, NY (remote)
           date_start: '2021-09-01'
