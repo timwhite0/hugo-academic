@@ -5,7 +5,6 @@
 
 title: Tim White # Website name
 baseURL: 'https://timwhite0.github.io/' # Website URL
-publishDir: "docs"
 
 ############################
 ## LANGUAGE
