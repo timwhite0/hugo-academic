@@ -1,30 +1,30 @@
 ---
-title: Estimating the lifetime risk of a false positive screening test result
+title: Sequential Monte Carlo for detecting and deblending objects in astronomical images
 
-event: JSM 2022
-event_url: https://ww2.amstat.org/meetings/jsm/2022/
+event: Workshop on Machine Learning and the Physical Sciences, NeurIPS 2023.
+event_url: https://ml4physicalsciences.github.io/2023/
 
-location: Washington, DC
+location: New Orleans, LA
 
-summary: JSM 2022, student paper competition for ASA Section on Medical Devices and Diagnostics.
-abstract: False positive results in screening tests have potentially severe psychological, medical, and financial consequences for the recipient. To quantify the long-term risk of this phenomenon, we estimate the probability that an individual in one of 14 demographic subpopulations will receive at least one false positive for one of five types of cancer or six STDs in a lifetime, assuming that they adhere to the screening guidelines of the U.S. Preventive Services Task Force. The data collected summarize the results of 116 different medical studies. We specify a suitable model to account for the hierarchical structure of the data, and we rely on the parametric bootstrap to quantify the uncertainty surrounding our estimates. The estimated probability of receiving at least one false positive in a lifetime is 85.5% (±0.9%) and 38.9% (±3.6%) for baseline groups of women and men, respectively, and it is higher for subpopulations recommended to screen more frequently than the baseline. Based on these findings, we encourage healthcare providers to educate patients about lifetime false positive risk, and we introduce an R Shiny dashboard to assist in this endeavor.
+summary: Workshop on Machine Learning and the Physical Sciences, NeurIPS 2023.
+abstract: Many of the objects imaged by the forthcoming generation of astronomical surveys will overlap visually. These objects are known as blends. Distinguishing and characterizing blended light sources is a challenging task, as there is inherent ambiguity in the type, position, and properties of each source. We propose SMC-Deblender, a novel approach to probabilistic astronomical cataloging based on sequential Monte Carlo (SMC). Given an image, SMC-Deblender evaluates catalogs with various source counts by partitioning the SMC particles into blocks. With this technique, we demonstrate that SMC can be a viable alternative to existing deblending methods based on Markov chain Monte Carlo and variational inference. In experiments with ambiguous synthetic images of crowded starfields, SMC-Deblender accurately detects and deblends sources, a task which proves infeasible for Source Extractor, a widely used non-probabilistic cataloging program.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2022-08-08T14:00:00Z'
+date: '2023-12-15T08:00:00Z'
 # date_end: '2030-06-01T15:00:00Z'
-all_day: false
+all_day: True
 
 # Schedule page publish date (NOT talk date).
 publishDate: '2017-01-01T00:00:00Z'
 
 authors:
   - admin
-  - Sara Algeri
+  - Jeffrey Regier
 author_notes:
   - Presenting
   - ""
-tags: [false positive, screening test, bootstrap, R Shiny, US Preventive Services Task Force]
+tags: [sequential Monte Carlo, astronomical images, deblending]
 
 # Is this a featured talk? (true/false)
 featured: false
