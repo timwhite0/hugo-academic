@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Tim White # Website name
-baseURL: 'https://timwhite0.github.io/hugo-academic' # Website URL
+baseURL: 'https://timwhite0.github.io/' # Website URL
 publishDir: "docs"
 
 ############################
