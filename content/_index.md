@@ -52,6 +52,7 @@ sections:
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
   - block: accomplishments
+    id: teaching
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Teaching'
@@ -100,6 +101,7 @@ sections:
     design:
       columns: '2'
   - block: experience
+    id: experience
     content:
       title: Experience
       # Date format for experience
