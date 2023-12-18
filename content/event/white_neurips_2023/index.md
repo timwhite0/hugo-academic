@@ -31,6 +31,6 @@ featured: false
 
 url_code: ''
 url_pdf: ''
-url_slides: white_jsm_2022_slides.pdf
+url_poster: 'https://nips.cc/media/PosterPDFs/NeurIPS%202023/76208.png'
 url_video: ''
 ---
