@@ -19,5 +19,5 @@ name = "my_theme"
   # Primary
   primary = "#ffffff"
 
-  # link = "#ffffff"
-  # link_hover = "#e6cb4c"
+  link = "#e6cb4c"
+  link_hover = "#e6cb4c"
