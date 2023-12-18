@@ -12,7 +12,7 @@ external_link: ''
 
 links:
 
-url_code: ''
+url_code: 'https://github.com/timwhite0/stats606_project'
 url_pdf: ''
 url_slides: ''
 url_video: ''

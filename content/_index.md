@@ -24,7 +24,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Presentations
+      title: Talks and posters
       filters:
         folders:
           - event
