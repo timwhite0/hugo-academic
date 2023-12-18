@@ -19,5 +19,11 @@ name = "my_theme"
   # Primary
   primary = "#ffffff"
 
+  # Menu
+  menu_primary = "#e6cb4c"
+  menu_text = "#143d59"
+  menu_text_active = "#143d59"
+  menu_title = "#143d59"
+
   link = "#e6cb4c"
   link_hover = "#e6cb4c"
