@@ -1,8 +1,6 @@
 ---
 title: Analyzing mortality and its determinants among individuals with type 1 and type 2 diabetes
 summary: STATS 601 final project, University of Michigan.
-tags:
-  - 
 date: '2023-04-27'
 
 # Optional external URL for project (replaces project detail page).

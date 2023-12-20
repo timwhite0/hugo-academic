@@ -1,11 +1,6 @@
 ---
 title: A resampling technique for massive data in settings of bootstrap inconsistency
 summary: Undergraduate honors thesis, University of Minnesota - Twin Cities.
-tags:
-  - resampling
-  - bootstrap
-  - bag of little bootstraps
-  - consistency
 date: '2022-05-10'
 
 # Optional external URL for project (replaces project detail page).

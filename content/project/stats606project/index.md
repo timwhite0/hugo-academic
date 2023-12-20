@@ -1,10 +1,6 @@
 ---
 title: Efficient initialization of the EM algorithm for Gaussian mixture models
 summary: STATS 606 final project, University of Michigan.
-tags:
-  - Gaussian mixture models
-  - EM algorithm
-  - initialization
 date: '2023-04-14'
 
 # Optional external URL for project (replaces project detail page).
