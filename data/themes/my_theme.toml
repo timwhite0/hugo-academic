@@ -25,5 +25,6 @@ name = "my_theme"
   menu_text_active = "#143d59"
   menu_title = "#143d59"
 
-  link = "#e6cb4c"
-  link_hover = "#e6cb4c"
+  # Home sections
+  home_section_odd = "#143d59"
+  home_section_even = "#143d59"
