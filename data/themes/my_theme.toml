@@ -26,5 +26,5 @@ name = "my_theme"
   menu_title = "#143d59"
 
   # Home sections
-  home_section_odd = "#143d59"
-  home_section_even = "#143d59"
+  home_section_odd = "rgb(20, 61, 89)"
+  home_section_even = "rgb(10, 51, 79)"

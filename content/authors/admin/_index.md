@@ -63,4 +63,4 @@ social:
 highlight_name: true
 ---
 
-I'm a second-year PhD student in the Department of Statistics at the University of Michigan. I work with [Jeff Regier](https://regier.stat.lsa.umich.edu) on Bayesian inference and probabilistic machine learning. Most of my current work is motivated by statistical and computational challenges in astronomy and astrophysics.
+I'm a second-year PhD student in the Department of Statistics at the University of Michigan. I work with [Jeff Regier](https://regier.stat.lsa.umich.edu) on Bayesian inference and probabilistic machine learning. Most of my current work is motivated by statistical challenges in astronomy and astrophysics.
