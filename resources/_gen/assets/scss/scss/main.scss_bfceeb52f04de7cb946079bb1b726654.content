@@ -7352,11 +7352,11 @@ a:focus {
 
 .dark a,
 .dark h3.article-title a:hover {
-  color: #e6cb4c; }
+  color: #ffffff; }
 
 .dark a:not(.btn):hover,
 .dark a:not(.btn):focus {
-  color: #e6cb4c; }
+  color: #ffffff; }
 
 pre,
 code {
@@ -9015,7 +9015,7 @@ html[dir='rtl'] body {
   color: #143d59; }
 
 .home-section.dark a {
-  color: #e6cb4c; }
+  color: #ffffff; }
 
 /* Override dark colors that may be inherited from body.dark */
 .home-section.dark,
@@ -9087,10 +9087,10 @@ html[dir='rtl'] body {
   background: #f2f2f2; }
 
 .dark .home-section {
-  background: #272935; }
+  background: #143d59; }
 
 .dark .home-section:nth-of-type(even) {
-  background: #23252f; }
+  background: #0a334f; }
 
 @media screen and (max-width: 768px) {
   .home-section {
