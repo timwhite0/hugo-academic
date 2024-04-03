@@ -28,7 +28,7 @@ bio:
 interests:
   - Sequential Monte Carlo
   - Markov chain Monte Carlo
-  - Variational inference
+  - Neural posterior estimation
   - Astrostatistics
 
 # Education to show in About widget
