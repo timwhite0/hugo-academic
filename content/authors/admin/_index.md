@@ -63,4 +63,4 @@ social:
 highlight_name: true
 ---
 
-I'm a second-year PhD student in the Department of Statistics at the University of Michigan. I work with [Jeff Regier](https://regier.stat.lsa.umich.edu) on Bayesian methods for analyzing images. My work involves a combination of Monte Carlo methods and machine learning, and a lot of it is motivated by statistical challenges in astronomy and astrophysics.
+I'm a second-year PhD student in the Department of Statistics at the University of Michigan. I work with [Jeff Regier](https://regier.stat.lsa.umich.edu) on Bayesian methods for analyzing images. My work involves a combination of Monte Carlo methods and machine learning, and it's motivated by statistical challenges in astronomy and astrophysics.
