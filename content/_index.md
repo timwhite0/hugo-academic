@@ -4,6 +4,12 @@ title: ''
 date: 2023-12-16
 type: landing
 
+cascade:
+  - _target:
+    kind: page
+    params:
+      private: true
+  
 sections:
   - block: about.biography
     id: about
