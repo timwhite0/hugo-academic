@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-date: 2023-12-16
+date: 2025-01-01
 type: landing
 
 cascade:
@@ -73,12 +73,20 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - certificate_url: ''
+          date_end: '2025-04-01'
+          date_start: '2024-08-01'
+          description: ''
+          organization: Department of Statistics, University of Michigan
+          organization_url: ''
+          title: DATASCI 451 - Bayesian Data Analysis
+          url: ''
+        - certificate_url: ''
           date_end: '2024-04-01'
           date_start: '2024-01-01'
           description: ''
           organization: Department of Statistics, University of Michigan
           organization_url: ''
-          title: STATS 415 - Data Mining and Statistical Learning
+          title: DATASCI 415 - Data Mining and Statistical Learning
           url: ''
         - certificate_url: ''
           date_end: '2023-12-01'

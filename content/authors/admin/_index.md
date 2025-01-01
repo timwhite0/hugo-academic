@@ -34,10 +34,13 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Statistics
+    - course: Ph.D. in Statistics
       institution: University of Michigan
       year: 2022-Present
-    - course: BS in Statistical Science
+    - course: M.A. in Statistics
+      institution: University of Michigan
+      year: 2022-2024
+    - course: B.S. in Statistical Science
       institution: University of Minnesota
       year: 2018-2022
 
