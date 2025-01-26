@@ -10,7 +10,7 @@ links:
 
 url_code: 'https://github.com/timwhite0/smc_object_detection/tree/wastefree'
 url_pdf: ''
-url_slides: stats608slides.pdf
+url_slides: ''
 url_video: ''
 ---
 

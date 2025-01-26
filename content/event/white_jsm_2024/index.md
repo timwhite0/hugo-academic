@@ -33,8 +33,4 @@ url_code: ''
 url_pdf: ''
 url_poster: ''
 url_video: ''
-
-links:
-- name: Slides
-  url: slides.pdf
 ---

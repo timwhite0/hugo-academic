@@ -10,7 +10,7 @@ links:
 
 url_code: 'https://github.com/gapatron/stats604_project03'
 url_pdf: ''
-url_slides: stats604creativity_slides.pdf
+url_slides: ''
 url_video: ''
 ---
 

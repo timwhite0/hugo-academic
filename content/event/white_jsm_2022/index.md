@@ -31,6 +31,6 @@ featured: false
 
 url_code: ''
 url_pdf: ''
-url_slides: white_jsm_2022_slides.pdf
+url_slides: 'https://ww2.amstat.org/cgi-bin/fileviewer.cfm?filename=AbstractPresentations%5Cjsm2022presentations%5C322083%2Epdf&Outputfile=322083'
 url_video: ''
 ---

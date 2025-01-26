@@ -31,10 +31,6 @@ featured: false
 
 url_code: ''
 url_pdf: ''
-url_poster: poster.pdf
+url_poster: 'https://nips.cc/media/PosterPDFs/NeurIPS%202023/76208.png'
 url_video: ''
-
-links:
-- name: Slides
-  url: slides.pdf
 ---
