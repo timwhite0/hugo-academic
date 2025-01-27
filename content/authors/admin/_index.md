@@ -56,7 +56,7 @@ social:
     icon_pack: fab
     link: https://github.com/timwhite0
   - icon: google-scholar
-    icon_pack: fab
+    icon_pack: brands
     link: https://scholar.google.com/citations?hl=en&user=H39Ybz4AAAAJ
   - icon: linkedin
     icon_pack: fab
