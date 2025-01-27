@@ -3,13 +3,6 @@
 title: ''
 date: 2025-01-01
 type: landing
-
-cascade:
-  - _target:
-    kind: page
-    path: /tag/**
-    params:
-      private: true
   
 sections:
   - block: about.biography
