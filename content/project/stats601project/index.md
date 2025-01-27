@@ -8,7 +8,7 @@ external_link: ''
 
 links:
 url_code: 'https://github.com/timwhite0/stats601_project'
-url_pdf: ''
+url_pdf: 'https://github.com/timwhite0/stats601_project/blob/main/Project%20-%20Tim%20White.pdf'
 url_slides: ''
 url_video: ''
 ---
