@@ -7,6 +7,7 @@ type: landing
 cascade:
   - _target:
     kind: page
+    path: /tag/**
     params:
       private: true
   
