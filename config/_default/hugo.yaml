@@ -61,4 +61,6 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
-GoogleAnalytics: ""
+services:
+  googleAnalytics:
+    ID: ""
