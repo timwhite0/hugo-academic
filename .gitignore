@@ -2,8 +2,6 @@
 .idea/
 
 # Hugo
-# resources/
-# public/
 .github/workflows/
 jsconfig.json
 node_modules/
