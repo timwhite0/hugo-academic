@@ -6,10 +6,6 @@ title: Tim White
 first_name: Tim
 last_name: White
 
-# Status emoji
-status:
-  icon: ☕️
-
 # Is this the primary user of the site?
 superuser: true
 
@@ -69,4 +65,4 @@ social:
 highlight_name: true
 ---
 
-I'm a PhD candidate in the Department of Statistics at the University of Michigan, where I am advised by [Jeffrey Regier](https://regier.stat.lsa.umich.edu). I try to solve scientific problems with Monte Carlo methods, deep neural networks, or both! I also help teach courses about data mining, statistical modeling, and Bayesian inference.
+I'm a PhD candidate in the Department of Statistics at the University of Michigan, where I am advised by [Jeffrey Regier](https://regier.stat.lsa.umich.edu). I solve scientific problems with Monte Carlo methods, deep neural networks, or both! I also help teach courses about data mining, statistical modeling, and Bayesian inference.
