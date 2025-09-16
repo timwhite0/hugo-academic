@@ -5,7 +5,7 @@ date: 2025-01-01
 type: landing
   
 sections:
-  - block: about
+  - block: resume-biography-3
     id: about
     content:
       title: Hello!
