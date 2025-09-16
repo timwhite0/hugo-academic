@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tim White</title>
+    <link>https://timwhite0.github.io/</link>
+      <atom:link href="https://timwhite0.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tim White</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://timwhite0.github.io/media/icon_hu_5454f77d44f55e42.png</url>
+      <title>Tim White</title>
+      <link>https://timwhite0.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Sequential Monte Carlo for probabilistic object detection in images</title>
+      <link>https://timwhite0.github.io/talk/sequential-monte-carlo-for-probabilistic-object-detection-in-images/</link>
+      <pubDate>Mon, 05 Aug 2024 08:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/talk/sequential-monte-carlo-for-probabilistic-object-detection-in-images/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequential Monte Carlo for probabilistic cell detection in microscopy images</title>
+      <link>https://timwhite0.github.io/project/biostat882project/</link>
+      <pubDate>Tue, 30 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/project/biostat882project/</guid>
+      <description>&lt;p&gt;Cell detection is an essential task in microscopy image analysis, as accurate cell segmentation maps are a prerequisite for downstream analysis by biomedical practitioners and researchers. This task was historically performed through manual annotation, but the advent of high-throughput imaging techniques in recent decades has prompted a shift away from this labor-intensive approach and toward automated detection algorithms. Software pipelines such as CellProfiler and ImageJ are commonly used for routine segmentation due to their relatively simple interfaces, but deep learning methods are the current state of the art among cell detection algorithms, as architectures based on convolutional neural networks (CNNs) have proven to excel at characterizing cells and tissues in microscopy images. However, successful training of these deep networks requires a high volume of manually segmented example images, and their applicability to specific cell or tissue types is limited to those that are represented in the training set. In addition, these models are not well suited for analyzing images that depict dense regions of clustered or overlapping cells, as the point estimates they produce do not capture the inherent ambiguity of cell positions and properties in crowded images.&lt;/p&gt;
+&lt;p&gt;The Bayesian paradigm is a potentially convenient alternative in this setting because it provides calibrated uncertainty estimates for ambiguous images and enables biomedical experts to incorporate prior information based on their domain knowledge. A typical Bayesian approach to this task is to treat the pixel intensities of an image as observed random variables x and the properties of the imaged objects as latent random variables z, and to characterize the posterior distribution p(z | x) via Monte Carlo samples or a variational approximation. This is a challenging environment for inference because it is inherently transdimensional — the number of cells in a microscopy image is generally not known a priori, and hence the number of unknown model parameters to infer is itself unknown. As such, most previous attempts to tackle cell detection through a Bayesian lens have relied on transdimensional sampling algorithms. Perhaps the most prominent example is the work of Al-Awadhi et al., who used birth-death Markov chain Monte Carlo (MCMC). However, the transdimensional proposals required by these algorithms are notoriously difficult to design and may result in slow mixing if they are designed poorly.&lt;/p&gt;
+&lt;p&gt;Motivated by the shortcomings of deterministic software pipelines, CNNs, and transdimensional MCMC algorithms, we propose a novel approach to probabilistic cell detection for crowded fluorescence microscopy images. Our approach, which is based on likelihood-tempered sequential Monte Carlo (SMC) samplers, leverages the parallel processing capabilities of modern GPU computing, and it does not require the user to design, or subsequently sample from, transdimensional proposals. The remainder of this report is guided by the following objectives: (1) Determine the necessary components of a realistic Bayesian model of cells in microscopy images and design an efficient SMC sampler to target the posterior distribution induced by this model; (2) assess the statistical and computational performance of our SMC sampler in a simulation study involving synthetic images generated from a simplified version of our Bayesian model; and (3) compare the accuracy and calibration of our sampler&amp;rsquo;s posterior estimates for several relevant cell detection metrics to a popular open-source cell segmentation pipeline based on thresholding and the watershed algorithm.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Waste-free sequential Monte Carlo for light source detection in astronomical images</title>
+      <link>https://timwhite0.github.io/project/stats608project/</link>
+      <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/project/stats608project/</guid>
+      <description>&lt;p&gt;Waste-free sequential Monte Carlo (SMC) is an extension of SMC that was recently proposed by Dau and Chopin (2022). In this report, we conduct numerical experiments to assess the utility of embedding this waste-free procedure within an SMC sampler designed for a challenging Bayesian inverse problem that requires transdimensional inference: detecting and distinguishing overlapping light sources in astronomical images.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sequential Monte Carlo for detecting and deblending objects in astronomical images</title>
+      <link>https://timwhite0.github.io/talk/sequential-monte-carlo-for-detecting-and-deblending-objects-in-astronomical-images/</link>
+      <pubDate>Fri, 15 Dec 2023 08:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/talk/sequential-monte-carlo-for-detecting-and-deblending-objects-in-astronomical-images/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sequential Monte Carlo for detecting and deblending objects in astronomical images</title>
+      <link>https://timwhite0.github.io/publication/white_regier_2023/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/publication/white_regier_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Forecasting the weather with deep learning</title>
+      <link>https://timwhite0.github.io/project/stats604weather/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/project/stats604weather/</guid>
+      <description>&lt;p&gt;Weather prediction is a notoriously challenging task due to the uncertainty inherent in dynamic meteorological systems. It is not uncommon for short-term forecasts of temperature, precipitation, and other conditions to be off the mark — these errors are a nuisance for everyday human activity and can negatively impact sectors like aviation and tourism.  Weather forecasts have traditionally been made by using supercomputers to simulate massive physical systems based on complex meteorological equations. This approach is known as numerical weather prediction, and it has been the predominant forecasting method for decades.&lt;/p&gt;
+&lt;p&gt;In recent years, however, meteorologists, computer scientists, and statisticians have discovered that deep neural networks are a powerful tool for producing accurate weather forecasts. As a result, there has been a shift away from numerical weather prediction and toward models based on machine learning. Our focus in this report is on the latter — we train models to predict temperature and precipitation up to four days into the future for 21 cities throughout the United States. Specifically, we produce forecasts of the minimum, average, and maximum daily temperature in these cities, as well as whether it snowed and whether any precipitation occurred. We develop a transparent and reproducible workflow via Git and Docker — our models can be trained (and retrained, if desired) and run on a daily basis to make predictions for the next four days in each city.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Did machine learning reveal symbolism, emotionality, and imaginativeness as primary predictors of creativity?</title>
+      <link>https://timwhite0.github.io/project/stats604creativity/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/project/stats604creativity/</guid>
+      <description>&lt;p&gt;Creativity is a fundamental but ambiguous concept in the visual arts. It has been demonstrated that there is an association between the perceived creativity of a work of art and its overall quality, but the underlying factors that shape individuals&amp;rsquo; perceptions of creativity are not well-established. This discrepancy is the central focus of &lt;a href=&#34;https://www.nature.com/articles/s41598-023-39865-1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a recent article&lt;/a&gt; published in Nature&amp;rsquo;s Scientific Reports, in which Spee et al. attempt to identify the perceived attributes of a work of art — e.g., color, symbolism, emotion — that contribute most heavily to individuals&amp;rsquo; assessments of its creativity.&lt;/p&gt;
+&lt;p&gt;Spee et al. conducted a study in which 78 non-experts were asked to rate 54 paintings according to 17 different attributes, each on a 100-point scale. The participants were also asked to judge the creativity of each painting on the same 100-point scale. The authors trained a random forest regression model to analyze these data, emphasizing that this approach is well-suited for capturing the nonlinear relationships that are thought to exist between creativity and the selected attributes. Their results support this hypothesis of nonlinearity and suggest that symbolism, emotionality, and imaginativeness are the most prominent predictors of creativity in Western paintings. In this report, we evaluate the reproducibility and replicability of Spee et al&amp;rsquo;s work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analyzing mortality and its determinants among individuals with type 1 and type 2 diabetes</title>
+      <link>https://timwhite0.github.io/project/stats601project/</link>
+      <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/project/stats601project/</guid>
+      <description>&lt;p&gt;Diabetes mellitus has consistently ranked among the ten leading causes of death in the United States for the past several decades. Diabetes-related mortality is prevalent across a wide range of sociodemographic subpopulations, and many previous studies have attempted to identify the risk factors and comorbidities that contribute most heavily to this phenomenon. However, surprisingly little attention has been paid to the distinction between the type 1 and type 2 variants of the disease in the context of mortality. In this report, we fill this gap in the literature by using unsupervised and supervised statistical learning methods to analyze the mortality risk profiles of individuals with type 1 and type 2 diabetes. We apply a dimension reduction technique to multiple-cause-of-death mortality data from the Centers for Disease Control and Prevention to explore the latent sociodemographic and health profiles of individuals whose deaths were attributed to diabetes in 2021, and we train several classification models to differentiate between type 1 and type 2 diabetes as a cause of death based on these characteristics. Our results suggest that sophisticated classification methods are capable of achieving moderate accuracy in distinguishing deaths due to type 1 diabetes from those due to type 2 diabetes, with tree-based and optimization-based classifiers such as random forest, AdaBoost, and kernel SVM providing a better holistic performance than model-based classifiers such as naive Bayes, quadratic discriminant analysis, and penalized logistic regression. We find that age is the most useful predictor for this classification task, followed by other sociodemographic predictors such as education, marital status, race, place of death, and sex. These findings provide important insights that could potentially improve the ability of practitioners to assess mortality risk in patients with type 1 and type 2 diabetes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Estimating the lifetime risk of a false positive screening test result</title>
+      <link>https://timwhite0.github.io/publication/white_algeri_2022/</link>
+      <pubDate>Wed, 15 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/publication/white_algeri_2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimating the lifetime risk of a false positive screening test result</title>
+      <link>https://timwhite0.github.io/talk/estimating-the-lifetime-risk-of-a-false-positive-screening-test-result/</link>
+      <pubDate>Mon, 08 Aug 2022 14:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/talk/estimating-the-lifetime-risk-of-a-false-positive-screening-test-result/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MLBdash</title>
+      <link>https://timwhite0.github.io/project/mlbdash/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/project/mlbdash/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://twhit.shinyapps.io/MLBdash/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MLBdash&lt;/a&gt; is an R Shiny dashboard with projected standings and team statistics dating back to 1998.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The first tab lists each team&amp;rsquo;s projected wins and losses, which are the average of the projections from &lt;a href=&#34;https://www.baseball-reference.com/leagues/majors/2022-playoff-odds.shtml&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baseball Reference&lt;/a&gt; and &lt;a href=&#34;https://www.baseballprospectus.com/standings/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Baseball Prospectus&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;The second tab contains a plot of OPS+ (offensive performance) versus ERA+ (pitching performance) and assigns teams to tiers by partitioning the coordinate space of this plot.&lt;/li&gt;
+&lt;li&gt;The third tab presents the information from the first two tabs for every season since 1998, which was the first season in which the MLB expanded to 30 teams.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;MLBdash will be updated for the 2024 season in April of 2024.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://timwhite0.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://timwhite0.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-hugo-blox-builder&#34;&gt;Create slides in Markdown with Hugo Blox Builder&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://hugoblox.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; | &lt;a href=&#34;https://docs.hugoblox.com/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} One {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} **Two** {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} Three {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{% /speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; slide background-image=&amp;#34;/media/boards.jpg&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; slide background-color=&amp;#34;&lt;span class=&#34;ni&#34;&gt;#0000FF&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; slide class=&amp;#34;my-style&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.hugoblox.com/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
