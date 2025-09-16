@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://timwhite0.github.io/sitemap.xml
