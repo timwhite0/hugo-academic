@@ -5,7 +5,7 @@ date: 2025-01-01
 type: landing
   
 sections:
-  - block: biography
+  - block: about
     id: about
     content:
       title: Hello!
