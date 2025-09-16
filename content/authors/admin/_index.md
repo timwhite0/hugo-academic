@@ -27,7 +27,7 @@ bio:
 # Interests to show in About widget
 interests:
   - Simulation-based inference
-  - Sequential Monte Carlo methods
+  - Sequential Monte Carlo
   - Flow-based generative models
   - Astrostatistics
 
