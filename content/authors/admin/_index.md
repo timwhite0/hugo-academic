@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Statistics PhD student
+role: Statistics PhD candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -26,9 +26,9 @@ bio:
 
 # Interests to show in About widget
 interests:
-  - Sequential Monte Carlo
-  - Variational inference
-  - Diffusion models
+  - Simulation-based inference
+  - Sequential Monte Carlo methods
+  - Flow-based generative models
   - Astrostatistics
 
 # Education to show in About widget
@@ -69,4 +69,4 @@ social:
 highlight_name: true
 ---
 
-I'm a third-year PhD student in the Department of Statistics at the University of Michigan. I work with [Jeff Regier](https://regier.stat.lsa.umich.edu) on developing scalable Bayesian methods and applying them to problems in the physical sciences, namely astrophysics. My work involves a combination of Monte Carlo methods and machine learning. I also help teach courses about data mining, statistical modeling, and Bayesian inference.
+I'm a PhD candidate in the Department of Statistics at the University of Michigan, where I am advised by [Jeffrey Regier](https://regier.stat.lsa.umich.edu). I try to solve scientific problems with Monte Carlo methods, deep neural networks, or both! I also help teach courses about data mining, statistical modeling, and Bayesian inference.
