@@ -5,12 +5,6 @@ date: 2025-01-01
 type: landing
   
 sections:
-  - block: about
-    id: about
-    content:
-      title: Hello!
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
   - block: collection
     id: publications
     content:
