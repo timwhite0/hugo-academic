@@ -65,4 +65,4 @@ social:
 highlight_name: true
 ---
 
-I'm a PhD candidate in the Department of Statistics at the University of Michigan, where I am advised by [Jeffrey Regier](https://regier.stat.lsa.umich.edu). I solve scientific problems with Monte Carlo methods, deep neural networks, or both! I also help teach courses about data mining, statistical modeling, and Bayesian inference.
+I'm a PhD candidate in the Department of Statistics at the University of Michigan, where I am advised by [Jeffrey Regier](https://regier.stat.lsa.umich.edu). I develop scalable probabilistic inference algorithms and apply them to problems in the physical sciences. I also help teach courses about data mining, statistical modeling, and Bayesian inference.
