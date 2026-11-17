@@ -22,10 +22,10 @@ bio:
 
 # Interests to show in About widget
 interests:
-  - Simulation-based inference
+  - Neural simulation-based inference
   - Sequential Monte Carlo
-  - Flow-based generative models
   - Astrostatistics
+  - Experimental design
 
 # Education to show in About widget
 education:
@@ -65,4 +65,4 @@ social:
 highlight_name: true
 ---
 
-I'm a PhD candidate in the Department of Statistics at the University of Michigan, where I am advised by [Jeffrey Regier](https://regier.stat.lsa.umich.edu). I develop scalable probabilistic inference algorithms and apply them to problems in the physical sciences. I also help teach courses about data mining, statistical modeling, and Bayesian inference.
+I'm a PhD candidate in the Department of Statistics at the University of Michigan, where I am advised by [Jeffrey Regier](https://sites.lsa.umich.edu/regier). I work on Bayesian modeling and computation, with applications in astrophysics, experimental design, and baseball. I was an intern at Lawrence Livermore National Laboratory and with the New York Mets.
